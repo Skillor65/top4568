@@ -1,0 +1,42 @@
+body {
+	background: url(../images/vkl.jpg);
+}
+
+* {
+	margin:0;
+	padding: 0;
+}
+.tab-panels ul {
+	text-align: center;
+}
+.tab-panels ul li {
+	display: inline-block;
+	background-color: #F26;
+	margin: 0;
+	padding: 5px 10px;
+	color: #FFF;
+	cursor: pointer;
+	color: #3f3f3f;
+	background: #ffcc00;
+	margin-right: 0px;
+}
+
+.tab-panels ul li:hover, .tab-panels ul li.active {
+	background-color: #ffbf00;
+	color: #6b6b6b;
+}
+
+.tab-panels .panel{
+	display: none;
+	background-color: #EEE;
+	border:1px solid #AAA; 
+}
+
+.tab-panels .panel.active {
+	display: block;
+}
+
+.shmelphoto {
+	width: 500px;
+	margin-left: 450px;
+}

@@ -1,0 +1,85 @@
+body {
+	background: url(../images/sad.jpg);
+}
+
+#white {
+	width: 799px;
+	height: 985px;
+	background-color: white;
+	margin-left: 400px;
+}
+
+#yellow {
+	width: 799px;
+	height: 50px;
+	background-color: #ffcc00;
+	margin-left: 0px;
+}
+
+p {
+	font-family: blo;
+}
+
+ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 500px; /* Отступ слева */
+   }
+
+.navigation {
+
+   list-style: none; /* Отключение отображения маркеров. */
+}
+.navigation li {
+   float: left; /* Выстраивание элементов списка в один ряд. */
+   margin-right: 0px; /* создание отступов для того, чтобы не сливались пункты меню. */
+
+   font-size: 14px; /* Размер текста в ссылках. */
+}
+.navigation li a {
+   display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+   padding: 15px 20px;  /* Внутри блочные отступы. */
+   background: #ffcc00; /* Цвет блоков меню. */
+   color: #3f3f3f; /* Цвет текста в блоках меню. */
+   text-decoration: none; /* Устранение подчёркивания ссылок. */
+   position: relative; /* Это необходимо при использовании Internet Explorer 6 для того, чтобы ссылка по всей своей площади была «кликабельной». */
+}
+.navigation li a:hover {
+   background: #ffbf00; /* Цвет блока при наведении курсора. */
+   color: #6b6b6b;  /* Цвет текста при наведении курсора. */
+}
+
+#news {
+	text-align: center;
+	font-size: 50px;
+	color: #f4c800;
+	text-shadow: black 2px 3px 4px;
+}
+
+.state {
+	width: 130px;
+	height: 80px;
+	margin-left: 40px;
+	float:left;
+	margin: 4px 10px 2px 0px;
+	border:1px solid #CCC;
+	padding:6px;
+}
+
+.textstate {
+	font-size: 20px;
+	font-family: Arial;
+}
+
+.black {
+	width: 799px;
+	height: 4px;
+	background-color: black;
+	margin-left: 0px;
+}
+
+.black2 {
+	width: 799px;
+	height: 2px;
+	background-color: black;
+	margin-left: 0px;
+}

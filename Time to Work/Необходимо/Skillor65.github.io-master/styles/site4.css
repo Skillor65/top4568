@@ -1,0 +1,18 @@
+body {
+	background: url(../images/sad.jpg);
+}
+
+#otstup {
+	margin-left: 215px;
+}
+
+#white {
+	width: 799px;
+	height: 730px;
+	background-color: white;
+	margin-left: 400px;
+}
+
+video {
+	height: 450px;
+}

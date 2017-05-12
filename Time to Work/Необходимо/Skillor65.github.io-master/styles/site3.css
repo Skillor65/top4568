@@ -1,0 +1,16 @@
+body {
+	background: url(../images/sad.jpg);
+}
+
+.shmelphoto {
+	width: 795px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+#white {
+	width: 799px;
+	height: 3415px;
+	background-color: white;
+	margin-left: 400px;
+}

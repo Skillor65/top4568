@@ -1,0 +1,590 @@
+@font-face {
+	font-family: Roboto Regular;
+	src: url(RobotoRegular.ttf);
+}
+
+
+
+
+
+.logo {
+	width: 140px;
+	margin-left: 175px;
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	overflow: auto;
+	width:100px;
+	height:100px;
+}
+
+.men {
+	padding-top: 0px;
+	box-sizing: border-box;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	width: 100vw;
+	height: 100vh;
+
+}
+
+.text1 {
+	color: white;
+	font-family: Roboto th;
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.text2 {
+	color: white;
+	font-family: Roboto th;
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+a.knopka {
+  color: white; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #1ebc4d; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-family: Roboto th;
+  font-size: 26px;
+} 
+a.knopka:hover { background: #1fa346; } /* при наведении курсора мышки */
+a.knopka:active { background: #1d6d35; } /* при нажатии */
+
+
+.knop {
+	text-align: center;
+	padding-top: 120px;
+}
+
+
+.fof {
+	z-index: -1;
+}
+
+
+/*ВТОРОЙ ФАЙЛ ЧУЗ*/
+
+a.knopka1 {
+  color: white; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #9513db; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-family: Roboto th;
+  font-size: 26px;
+} 
+a.knopka1:hover { background: #8322b7; } /* при наведении курсора мышки */
+a.knopka1:active { background: #642487; } /* при нажатии */
+
+
+.knop1 {
+	text-align: center;
+	padding-top: 100px;
+}
+
+
+
+
+a.knopka2 {
+  color: white; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #1ebc4d; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-family: Roboto th;
+  font-size: 26px;
+} 
+a.knopka2:hover { background: #1fa346; } /* при наведении курсора мышки */
+a.knopka2:active { background: #1d6d35; } /* при нажатии */
+
+
+.knop2 {
+	text-align: center;
+	padding-top: 70px;
+}
+
+
+
+
+
+/*ТРЕТИЙ ФАЙЛ К основной*/
+
+body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #e5e5e5;
+	width: 150px;
+	height: 100vh;
+	position: fixed;
+	col-*-offset-0
+	float: left;
+}
+
+li a, .dropdown{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 10px 0;
+	text-align: center;
+	border-bottom: 1px solid #666;
+	font-size: 14px;
+
+
+}
+
+
+
+li a.active {
+	background-color: #afafaf;
+	color: black;
+}
+
+li a:hover:not(.active) {
+	color: #FFF;
+	background-color: #d1d1d1;
+}
+
+.dropdown {
+	position: relative;
+	cursor: pointer;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	height: auto;
+	top: 0;
+	left: 100%;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+.logo2 {
+	width: 150px;
+}
+
+
+.font {
+	font-family: Kroftsmann;
+	font-size: 26px;
+}
+
+
+
+
+.firstform {
+	margin-top: 15px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+
+.pred {
+	margin-left: 160px;
+
+
+}
+
+
+.secondform {
+	margin-top: 15px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+
+.pred2 {
+	margin-left:320px;
+
+
+}
+
+
+
+.ded {
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.farm {
+	font-family: Astakhov First One Stripe;
+	margin-left: 320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gray {
+	margin:0 25% 0 25%;
+  	width:50%;
+	height: 500px;
+	background-color: #e5e5e5;
+}
+
+.superreg {
+	margin-top: 50px;
+	font-family: Roboto th;
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.superreg2 {
+	font-family: Roboto th;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.one {
+	padding-top: 20px;
+}
+
+
+
+
+
+.text3 {
+	font-family: Roboto th;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+.wow {
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin: 0;
+	padding: 0;
+}
+
+
+.wow2 {
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-bottom: 15px;
+}
+
+
+.wow3 {
+
+	display: inline-block;
+}
+
+
+label {
+	vertical-align: bottom;
+}
+
+
+.wow3name {
+
+	display: inline-block;
+}
+
+
+.tome {
+	margin-left: 5px;
+
+
+}
+
+
+
+.36 {
+	margin: 0;
+	padding: 0;
+}
+
+
+.gray2 {
+	margin:0 25% 0 25%;
+  	width:50%;
+	height: 1550px;
+	background-color: #e5e5e5;
+
+}
+
+
+
+
+.text25 {
+	color: black;
+	font-family: Roboto th;
+	font-size: 48px;
+	margin-top: 30px;
+
+	margin-left: 600px;
+}
+
+.form {
+	font-size: 20px;
+}
+
+.phot {
+	width: 793px;
+}
+
+
+a.knopka12 {
+  color: white; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: #834d18; /* фон кнопки */
+  padding: .7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+  font-family: Roboto th;
+  font-size: 26px;
+} 
+a.knopka12:hover { background: #704114; } /* при наведении курсора мышки */
+a.knopka12:active { background: #5b3511; } /* при нажатии */
+
+
+
+
+
+
+
+
+.black2 {
+	width: 799px;
+	height: 2px;
+	background-color: black;
+	margin-left: 0px;
+}
+
+
+
+
+
+
+
+.thrform {
+	margin-top: 15px;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+.pred3 {
+	margin-left:160px;
+
+}
+
+.pha {
+	margin-left: 250px;
+}
+
+.nepha {
+	margin-left: 160px;
+}
+
+
+.shmel {
+	margin-left: 150px;
+}
+
+
+.shmel2 {
+	margin-left: 80px;
+}
+
+
+
+
+
+.farm2 {
+	font-family: Astakhov First One Stripe;
+	margin-left: 360px;
+
+}
+
+
+.farm3 {
+	font-family: Astakhov First One Stripe;
+	margin-left: 270px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pred4 {
+	margin-left:80px;
+
+}
+
+
+.pred5 {
+
+
+}
+
+
+
+.pred6 {
+
+
+}
+
+
+
+
+.farms {
+	font-family: Astakhov First One Stripe;
+	margin-left: 350px;
+}
+
+
+
+
+
+.gray3 {
+	margin:0 25% 0 25%;
+  	width:50%;
+	height: 800px;
+	background-color: #e5e5e5;
+
+}
+
+
+.zapr {
+	text-align: center;
+	font-family: Astakhov First One Stripe;
+	font-size: 60px;
+	margin-top: 40px;
+}
+
+.zapr2 {
+	text-align: center;
+	font-family: Astakhov First One Stripe;
+	font-size: 40px;
+	margin-top: 40px;
+}
+
+
+
+.state {
+	width: 130px;
+	margin-left: 40px;
+	float:left;
+	margin: 4px 10px 2px 0px;
+	border:1px solid #CCC;
+	padding:6px;
+}
+
+.textstate {
+	font-size: 25px;
+	font-family: Segoe UI Light;
+	margin-top: 10px;
+}
+
+
+.textp {
+	font-size: 25px;
+	font-family: Segoe UI Light;
+	margin-top: 10px;
+}
+
+
+.textz {
+	font-size: 16px;
+	font-family: Segoe UI Light;
+	margin-top: 10px;
+}
+
+
+.state2 {
+	width: 40px;
+	margin-left: 40px;
+	float:left;
+	margin: 4px 10px 2px 0px;
+	border:1px solid #CCC;
+	padding:6px;
+	float: right;
+}
+
+
+.asds {
+	margin-top: 5px;
+
+}
+
+
+
+
+
+.farm4 {
+	font-family: Astakhov First One Stripe;
+	margin-left: 180px;
+	font-size: 50px;
+
+}
+
+
+
+
+
+
+.state25 {
+	width: 90px;
+	margin-left: 40px;
+	float:left;
+	margin: 4px 10px 2px 0px;
+	border:1px solid #CCC;
+	margin-left:108px;
+}
